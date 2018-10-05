@@ -16,7 +16,7 @@ spring:
         port: 5672
         username: guest
         password: guest
-configName: dev_config（修改后内容）
+configName: dev_config（修改后内容111）
 
 #动态刷新配置
 management:
