@@ -11,6 +11,11 @@ spring:
             idle-timeout: 600000
             connection-timeout: 30000
             max-lifetime: 1800000
+    rabbitmq:
+        host: ocalhost
+        port: 5672
+        username: guest
+        password: guest
 configName: dev_config
 
 #动态刷新配置
@@ -18,13 +23,7 @@ management:
     security:
         enabled: false
 
-spring:
-    rabbitmq:
-        host: ocalhost
-        port: 5672
-        username: guest
-        password: guest
-        
+
 
 
 
