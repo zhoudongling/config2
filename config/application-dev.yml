@@ -11,7 +11,7 @@ spring:
             idle-timeout: 600000
             connection-timeout: 30000
             max-lifetime: 1800000
-configName: dev_config(修改后)
+configName: dev_config
 
 
         
