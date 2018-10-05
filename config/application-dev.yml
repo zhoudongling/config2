@@ -13,7 +13,17 @@ spring:
             max-lifetime: 1800000
 configName: dev_config
 
+#动态刷新配置
+management:
+    security:
+        enabled: false
 
+spring:
+    rabbitmq:
+        host: ocalhost
+        port: 5672
+        username: guest
+        password: guest
         
 
 
