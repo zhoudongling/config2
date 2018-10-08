@@ -12,11 +12,11 @@ spring:
             connection-timeout: 30000
             max-lifetime: 1800000
     rabbitmq:
-        host: ocalhost
+        host: localhost
         port: 5672
         username: guest
         password: guest
-configName: dev_config（修改后内容333）
+configName: dev_config（修改后内容7777）
 
 
 
